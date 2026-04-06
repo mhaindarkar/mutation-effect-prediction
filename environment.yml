@@ -1,0 +1,16 @@
+name: mutation-effect-prediction
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - biopython
+  - scipy
+  - pip
+  - pip:
+      - py3Dmol
