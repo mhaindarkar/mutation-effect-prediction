@@ -1,0 +1,19 @@
+mutation_id,position,resname_3,resname_1,wt,mut,environment_group,environment,ss_simple,rsa,mutation_class,rationale,stability_score,predicted_effect,foldx_energy,foldx_effect,rule_binary,agreement
+L8I,8,LEU,L,L,I,core,core,helix,0.0,conservative,Maintains hydrophobic character with similar side-chain size and packing behavior.,2,stabilizing,6.80394,destabilizing,stabilizing,False
+L8A,8,LEU,L,L,A,core,core,helix,0.0,moderate,Reduces side-chain volume and may create a cavity in the hydrophobic core.,-2,destabilizing,0.971233,neutral,destabilizing,False
+L8D,8,LEU,L,L,D,core,core,helix,0.0,disruptive,"Introduces a charged residue into the buried core, which is often destabilizing.",-6,destabilizing,2.98225,destabilizing,destabilizing,True
+V29I,29,VAL,V,V,I,core,core,helix,0.0,conservative,Retains hydrophobic chemistry with a similar branched side chain.,2,stabilizing,0.0660944,neutral,stabilizing,False
+V29A,29,VAL,V,V,A,core,core,helix,0.0,moderate,Shrinks side-chain volume and may weaken tight core packing.,-2,destabilizing,1.84138,destabilizing,destabilizing,True
+V29D,29,VAL,V,V,D,core,core,helix,0.0,disruptive,Introduces a charged residue into a buried hydrophobic environment.,-6,destabilizing,3.13628,destabilizing,destabilizing,True
+L56I,56,LEU,L,L,I,core,core,loop,0.0,conservative,Maintains hydrophobic character with similar side-chain size and packing behavior.,2,stabilizing,-0.037159,stabilizing,stabilizing,True
+L56A,56,LEU,L,L,A,core,core,loop,0.0,moderate,Reduces side-chain volume and may create a cavity in the hydrophobic core.,-2,destabilizing,2.46088,destabilizing,destabilizing,True
+L56D,56,LEU,L,L,D,core,core,loop,0.0,disruptive,"Introduces a charged residue into the buried core, which is often destabilizing.",-6,destabilizing,3.3437,destabilizing,destabilizing,True
+D18E,18,ASP,D,D,E,surface,surface,loop,0.3435582822085889,conservative,Retains negative charge while slightly extending side-chain length.,1,stabilizing,0.657825,neutral,stabilizing,False
+D18N,18,ASP,D,D,N,surface,surface,loop,0.3435582822085889,moderate,Removes formal charge but preserves polar hydrogen-bonding potential.,-1,destabilizing,0.746474,neutral,destabilizing,False
+D18F,18,ASP,D,D,F,surface,surface,loop,0.3435582822085889,disruptive,Introduces a hydrophobic aromatic residue at an exposed polar site.,-3,destabilizing,0.532198,neutral,destabilizing,False
+R73K,73,ARG,R,R,K,surface,surface,loop,0.625,conservative,Retains positive charge with similar surface electrostatic role.,1,stabilizing,-0.190711,stabilizing,stabilizing,True
+R73Q,73,ARG,R,R,Q,surface,surface,loop,0.625,moderate,Removes positive charge while keeping a polar side chain.,-1,destabilizing,-0.240984,stabilizing,destabilizing,False
+R73F,73,ARG,R,R,F,surface,surface,loop,0.625,disruptive,Introduces a bulky hydrophobic aromatic residue at a charged surface position.,-3,destabilizing,0.218698,neutral,destabilizing,False
+Q41N,41,GLN,Q,Q,N,surface,surface,loop,0.6060606060606061,conservative,Retains polar amide chemistry with a slightly shorter side chain.,1,stabilizing,0.30324,neutral,stabilizing,False
+Q41E,41,GLN,Q,Q,E,surface,surface,loop,0.6060606060606061,moderate,Introduces a negative charge at a previously neutral polar site.,-1,destabilizing,-0.688891,stabilizing,destabilizing,False
+Q41F,41,GLN,Q,Q,F,surface,surface,loop,0.6060606060606061,disruptive,Replaces a polar surface residue with a hydrophobic aromatic side chain.,-3,destabilizing,0.0845825,neutral,destabilizing,False
