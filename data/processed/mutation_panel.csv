@@ -1,0 +1,19 @@
+mutation_id,position,resname_3,resname_1,wt,mut,environment_group,environment,ss_simple,rsa,mutation_class,rationale
+L8I,8,LEU,L,L,I,core,core,helix,0.0,conservative,Maintains hydrophobic character with similar side-chain size and packing behavior.
+L8A,8,LEU,L,L,A,core,core,helix,0.0,moderate,Reduces side-chain volume and may create a cavity in the hydrophobic core.
+L8D,8,LEU,L,L,D,core,core,helix,0.0,disruptive,"Introduces a charged residue into the buried core, which is often destabilizing."
+V29I,29,VAL,V,V,I,core,core,helix,0.0,conservative,Retains hydrophobic chemistry with a similar branched side chain.
+V29A,29,VAL,V,V,A,core,core,helix,0.0,moderate,Shrinks side-chain volume and may weaken tight core packing.
+V29D,29,VAL,V,V,D,core,core,helix,0.0,disruptive,Introduces a charged residue into a buried hydrophobic environment.
+L56I,56,LEU,L,L,I,core,core,loop,0.0,conservative,Maintains hydrophobic character with similar side-chain size and packing behavior.
+L56A,56,LEU,L,L,A,core,core,loop,0.0,moderate,Reduces side-chain volume and may create a cavity in the hydrophobic core.
+L56D,56,LEU,L,L,D,core,core,loop,0.0,disruptive,"Introduces a charged residue into the buried core, which is often destabilizing."
+D18E,18,ASP,D,D,E,surface,surface,loop,0.3435582822085889,conservative,Retains negative charge while slightly extending side-chain length.
+D18N,18,ASP,D,D,N,surface,surface,loop,0.3435582822085889,moderate,Removes formal charge but preserves polar hydrogen-bonding potential.
+D18F,18,ASP,D,D,F,surface,surface,loop,0.3435582822085889,disruptive,Introduces a hydrophobic aromatic residue at an exposed polar site.
+R73K,73,ARG,R,R,K,surface,surface,loop,0.625,conservative,Retains positive charge with similar surface electrostatic role.
+R73Q,73,ARG,R,R,Q,surface,surface,loop,0.625,moderate,Removes positive charge while keeping a polar side chain.
+R73F,73,ARG,R,R,F,surface,surface,loop,0.625,disruptive,Introduces a bulky hydrophobic aromatic residue at a charged surface position.
+Q41N,41,GLN,Q,Q,N,surface,surface,loop,0.6060606060606061,conservative,Retains polar amide chemistry with a slightly shorter side chain.
+Q41E,41,GLN,Q,Q,E,surface,surface,loop,0.6060606060606061,moderate,Introduces a negative charge at a previously neutral polar site.
+Q41F,41,GLN,Q,Q,F,surface,surface,loop,0.6060606060606061,disruptive,Replaces a polar surface residue with a hydrophobic aromatic side chain.
